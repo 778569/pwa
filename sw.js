@@ -31,7 +31,7 @@ self.addEventListener('push', function(event) {
     {action:'close',title:'close',icon :'https://www.pngkey.com/png/full/137-1377101_example-stamp-png-graphic-black-and-white-stock.png'},
   ]
   
-},
+};
 
 event.waitUntil(
   self.registration.showNotification('Hello world!',options)
